@@ -1,0 +1,33 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-color: rgb(220, 240, 250);
+}
+
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns : 10fr 2fr;
+}
+
+[class^="box-"] {
+  /*background-color: skyblue; */
+  display: grid;
+}
+
+.box-Buttons {
+	place-items: center;
+}
+
+.theDiv {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+
+	/*
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	*/
+}
